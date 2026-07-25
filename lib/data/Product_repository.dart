@@ -1,14 +1,9 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
-
 import 'package:http/http.dart' as http;
-
 import '../models/product.dart';
 
-/// Fetches products from the public FakeStoreAPI
-/// (https://fakestoreapi.com/products) — a free, no-auth-required REST API
-/// that returns real product JSON, used here instead of hardcoded data.
 class ProductRepository {
   ProductRepository({http.Client? client}) : _client = client ?? http.Client();
 

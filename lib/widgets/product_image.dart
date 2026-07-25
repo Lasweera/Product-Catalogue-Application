@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// Wraps [Image.network] with a loading placeholder and a graceful
-/// fallback icon if the image fails to load, so a bad/slow image never
-/// breaks the layout or shows a raw error.
 class ProductImage extends StatelessWidget {
   const ProductImage({
     super.key,

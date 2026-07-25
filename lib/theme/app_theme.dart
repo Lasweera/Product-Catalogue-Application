@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// Centralised light/dark theme definitions so the whole app (not just a
-/// couple of widgets) responds consistently to the theme toggle.
 class AppTheme {
   AppTheme._();
 
@@ -38,7 +36,7 @@ class AppTheme {
           fontWeight: FontWeight.w600,
         ),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         elevation: 0,
         color: colorScheme.surfaceContainerLow,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),

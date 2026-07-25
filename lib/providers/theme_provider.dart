@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-/// Controls the app-wide light/dark theme mode and persists the user's
-/// choice.
 class ThemeProvider extends ChangeNotifier {
   static const _prefsKey = 'theme_mode';
 

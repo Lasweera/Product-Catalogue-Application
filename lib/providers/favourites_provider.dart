@@ -1,8 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-/// Tracks favourited product IDs and persists them locally so favourites
-/// survive an app restart.
 class FavouritesProvider extends ChangeNotifier {
   static const _prefsKey = 'favourite_product_ids';
 
