@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 
-import '../data/product repository.dart';
+import '../data/product_repository.dart';
 import '../models/product.dart';
 
 enum ProductLoadStatus { loading, loaded, error }
